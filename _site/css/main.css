@@ -59,7 +59,6 @@ section:nth-child(5) {
 
 .title {
   background-image: url({{site.baseurl}}/images/mainbg.png);
-  color: black;
   width: 100%;
   background-size: cover;
   margin: 0;
@@ -73,7 +72,7 @@ section:nth-child(5) {
 
 .caption {
   text-align: center;
-  color: white;
+  color: red;
   font-weight: 300;
 }
 
