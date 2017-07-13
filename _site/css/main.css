@@ -1,0 +1,513 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  background-color: white;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.options {
+  padding-top: 2em;
+}
+
+header {
+background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.btn-show-hide {
+  border: none;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+section {
+  overflow: hidden;
+  position: relative;
+}
+
+section:nth-child(5) {
+  border: 0;
+}
+
+.title {
+  background-image: url({{site.baseurl}}/images/motionbg2.gif);
+  color: black;
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  padding-top: 9em;
+  padding-bottom: 9em;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.thumb {
+  max-width: 300px;
+}
+
+.phonemock {
+  max-width: 267px;
+}
+
+.me {
+  max-width: 300px;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.thumb:hover{
+  color: white;
+  opacity: 0.5;
+}
+
+p {
+  text-align: left;
+  color: white;
+  padding: 0;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+.bottomborder {
+  border-top: 8px solid black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.footbut:hover {
+  background-color: white;
+}
+
+.mail {
+  color: black;
+}
+
+.mail:hover {
+  color: #1eaefa;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.imgfull {
+  max-width: 1000px;
+}
+
+.imgfull2 {
+  max-width: 464px;
+}
+
+.copyright {
+  color: black;
+}
+
+.photoprev {
+  display: flex;
+  justify-content: center;
+}
+
+.show {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  color: black;
+  margin-top: 0;
+}
+
+h5 {
+  color: black;
+}
+
+.footerh5 {
+  margin: 0.25em;
+}
+
+.abouttext {
+  color: black;
+}
+
+.footlogo {
+  width: 25%;
+  height: auto;
+}
+
+.logo {
+  width: 26%;
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 37%;
+}
+
+.photobg2 {
+  border-left: 0px solid black;
+  height: 100%;
+  background-size: cover;
+  padding-top: 3em;
+}
+
+.motionbg {
+  border-right: 0px solid black;
+  height: 100%;
+  background-size: cover;
+  padding-top: 3em;
+}
+
+.uiuxbg {
+  border-right: 0px solid black;
+  height: 100%;
+  background-size: cover;
+  padding-top: 3em;
+}
+
+.desc {
+  color: white;
+}
+
+.container {
+  align-items: stretch;
+  height: 100%;
+}
+
+.nav {
+  margin: 0;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+.nav1 {
+  margin: 0;
+  background-color: white;
+  border-bottom: 8px solid black;
+}
+
+.wrapper {
+   justify-content: center;
+   border-top: 8px solid black;
+   padding-top: 0;
+   border-bottom: 8px solid black;
+
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 1.25em;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+
+}
+
+.nav li {
+  display: inline-block;
+  width: 15%;
+}
+
+.nav a {
+  display: inline-block;
+  color: black;
+}
+
+.nav1 li {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav1 a {
+  display: inline-block;
+  color: black;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.s404 {
+  text-align: center;
+}
+
+.logo404 {
+  max-width: 150px;
+  padding-bottom: 2em;
+}
+
+.border-bottom-blue {
+  border-bottom: 8px solid black;
+}
+
+img {
+  width: 100%;
+}
+
+ul li:hover {
+  background-color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.photo1 {
+  width: 900px;
+  height: auto;
+  background-color: grey;
+}
+
+.photo2 {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+.photo3 {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+.main {
+  border-top: 8px solid black;
+  background-size: cover;
+}
+
+.lightblue {
+  color: #2dbbf6;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.grey {
+  color: #ececec;
+}
+
+.blue {
+  color: black;
+}
+
+@media only screen and (min-width: 31em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  p {
+    padding: 0 2em;
+  }
+
+  .svg {
+    width: 50%;
+    height: auto;
+  }
+
+  .logo {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 43em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .head {
+    padding-left: 4em;
+  }
+
+  .svg {
+    width: 30%;
+  }
+
+  h2 {
+    margin-bottom: 0.2em;
+  }
+
+  nav {
+    padding-bottom: 0em;
+  }
+
+  .img {
+    width: 70%;
+  }
+
+  .photobg2 {
+    width: 33%;
+    height: auto;
+  }
+
+  .motionbg {
+    width: 33%;
+    height: auto;
+  }
+
+  .uiuxbg {
+    width: 34%;
+    height: auto;
+  }
+
+  .nav1 li {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .nav1 a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo {
+    width: 15%;
+    margin: 0;
+    padding-bottom: 1.2em;
+  }
+}
+  @media only screen and (min-width: 56em) {
+
+    html {
+      font-size: 130%;
+      line-height: 1.6;
+    }
+
+    .img {
+      width: 75%;
+    }
+
+    .logo {
+      width: 10%;
+    }
+}
+
+@media only screen and (min-width: 68em) {
+
+  html {
+    font-size: 140%;
+    line-height: 1.7;
+  }
+}
+
+@media only screen and (min-width: 86em) {
+
+  .logo {
+    width: 6%;
+  }
+
+
+    @media print {
+
+      html {
+        width: 3.5in;
+        height: 2in;
+        margin: 0;
+        padding: 0;
+        border: 1px solid black;
+      }
+
+      nav {
+        display: none;
+      }
+
+      main a::after {
+        content: " (" attr(href) ")";
+        color: #999;
+      }
+
+      img {
+        display: none;
+      }
+
+      p {
+        display: none;
+      }
+
+      header {
+        background-image: none;
+      }
+
+      .head {
+        padding: 0em;
+      }
+
+      h1 {
+        display: inline-block;
+        color: black;
+        font-size: 1rem
+      }
+
+      h2 {
+        display: none;
+      }
+}
